@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+
+# Ignore folders
+debug/
+release/
