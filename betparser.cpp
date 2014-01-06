@@ -28,5 +28,6 @@ betParser::~betParser()
 */
 void betParser::connectSignalSlots()
 {
-    connect(ui->toolButton, SIGNAL(clicked()), ui->groupBox_4, SLOT(show()));
+//    connect(ui->toolButton, SIGNAL(clicked()), ui->groupBox_4, SLOT(show()));
+    connect(ui->settingsButt, SIGNAL(toggled(bool)), ui->groupBox_4, SLOT(setShown(bool)));
 }
