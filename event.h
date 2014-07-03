@@ -14,6 +14,7 @@ public:
     QString time();
     int number();
 
+	// set time of event
     void setTime(const QString &time);
     void setNumber(const int &number);
 
