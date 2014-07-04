@@ -7,5 +7,6 @@ int main(int argc, char *argv[])
     betParser w;
     w.show();
 
+    // add comment for commit
     return a.exec();
 }
